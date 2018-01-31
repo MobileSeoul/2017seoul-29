@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:itemBackground">@color/colorWhite</item>
+        <item name="android:itemTextAppearance">@style/MenuText</item>
+    </style>
+
+    <!--  일기쓰기 메뉴 글자색 바꾸기. -->
+    <style name="MenuText">
+        <item name="android:textColor">@color/colorText3</item>
+    </style>
+
+
+    <!-- Floating Actions Menu-->
+    <style name="menu_labels_style">
+        <item name="android:background">@drawable/fab_label_background</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="PasscodeEditTextStyle">
+        <item name="android:background">@color/passcodelock_field_background_color</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/passcodelock_field_text_color</item>
+        <item name="android:textColorHint">@color/passcodelock_field_hint_text_color</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_marginLeft">40dp</item>
+    </style>
+
+    <style name="PasscodeKeyboardButtonStyle" parent="@android:style/Widget.Button">
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/light_gray</item>
+        <item name="colorControlActivated">@color/list_row_selected</item>
+        <item name="colorControlHighlight">@color/list_row_selected</item>
+
+        <item name="android:textColor">@color/passcodelock_button_text_color</item>
+        <item name="android:textSize">@dimen/passcodelock_button_text_size</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <!--  Custom dialog. -->
+    <style name="MyDialog"
+        parent="Theme.AppCompat.Light.Dialog">
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="MyTheme.ActionBar.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+</resources>

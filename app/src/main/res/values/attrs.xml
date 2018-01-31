@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CropView">
+        <!-- Viewport ratio used to compute height based off view width -->
+        <attr name="cropviewViewportRatio" format="float" />
+        <!-- Viewport overlay color -->
+        <attr name="cropviewViewportOverlayColor" format="color" />
+        <!-- Viewport overlay padding -->
+        <attr name="cropviewViewportOverlayPadding" format="dimension" />
+        <!-- Maximum zoom level -->
+        <attr name="cropviewMaxScale" format="float" />
+        <!-- Minimum  zoom level -->
+        <attr name="cropviewMinScale" format="float" />
+        <!-- Shape -->
+        <attr name="cropviewShape" format="enum">
+            <enum name="rectangle" value="0" />
+            <enum name="oval" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsTextAllCaps" format="boolean" />
+        <attr name="pstsTabSwitch" format="boolean" />
+        <attr name="pstsActivateTextColor" format="color" />
+        <attr name="pstsDeactivateTextColor" format="color" />
+    </declare-styleable>
+</resources>
